@@ -1,3 +1,6 @@
+@import 'variaveis';
+@import 'mixins';
+
 .container {
     display: flex;
     flex-direction: column;
@@ -7,5 +10,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: white;
+
+    @include texto-padrao ($gx)
+
 }

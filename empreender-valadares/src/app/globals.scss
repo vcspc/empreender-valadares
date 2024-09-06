@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import 'variaveis';
+
 :root {
   /* CSS Reset */
   * {
@@ -12,6 +14,7 @@
 
   html, body {
     height: 100%;
+    background-color: $cor-fundo;
   }
 }
 

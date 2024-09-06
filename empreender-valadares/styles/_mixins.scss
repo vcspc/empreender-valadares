@@ -1,0 +1,30 @@
+@import 'variaveis';
+
+
+/* titulo
+
+subtitulo */
+
+@mixin texto-padrao ($tamanho) {
+    font-family: $texto-corpo;
+    font-size: $p;
+    line-height: 1;
+    color: $texto-claro;
+    font-size: $tamanho;
+  }
+
+/* texto-destaque
+
+card-transparente
+
+card-com-fundo
+
+botao
+
+container-videos
+
+faixa-numeracao
+
+itens-lista
+
+ */
