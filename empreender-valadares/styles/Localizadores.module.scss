@@ -1,0 +1,38 @@
+@import 'variaveis';
+@import 'mixins';
+
+.fundo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 7rem;
+    border: solid 1px $texto-claro;
+    border-radius: 15px;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 80%;
+
+
+        img {
+            width: 1.4rem;
+            margin-bottom: 1rem;
+        }
+
+        .titulo {
+            @include titulo($ppp, 0rem);
+            margin-bottom: 0.5rem;
+        }
+
+        .texto {
+            @include texto-padrao($ppp, 1rem);
+            text-align: center;
+        }
+    }
+}

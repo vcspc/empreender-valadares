@@ -1,0 +1,21 @@
+@import 'variaveis';
+
+.fundo1 {
+    background-image: url('/fundo1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fundo2 {
+    background-image: url('/fundo2.svg');
+    background-position: center;
+    background-size: cover;
+}
+
+.fundo3 {
+    background-image: url('/fundo3.svg');
+    background-position: center;
+    background-size: cover;
+}
+

@@ -2,15 +2,45 @@
 @import 'mixins';
 
 .container {
+
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 60%;
+    height: 9rem;
     justify-content: center;
-    background-image: url('/fundo_card.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    align-items: flex-start;
+    margin-top: 5rem;
+    position: relative;
+    
 
-    @include texto-padrao ($gx)
 
+
+    img {
+        position: absolute;
+        top: -2rem;
+        width: 3.7rem;
+        
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url('/fundo_card.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border: solid 1px $texto-claro;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        border-radius: 15px;
+    
+        @include texto-padrao ($ppp, 1rem);
+
+        .texto {
+            width: 80%;
+        }
+
+    }
 }

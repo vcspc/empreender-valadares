@@ -1,11 +1,13 @@
 import styles from '../styles/CardOK.module.scss'
 
-export default function CardOK() {
+export default function CardOK(props) {
 
     return (
         <div className={styles.container}>
             <img src="/ok_card.svg" alt="" />
-            <p>Advogados autônomos que querem estruturar o seu escritório de forma eficiente.</p>
+            <div className={styles.card}>
+                <p className={styles.texto}>{props.texto}</p>
+            </div>
         </div>
     )
 }

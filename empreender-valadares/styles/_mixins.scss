@@ -1,17 +1,63 @@
 @import 'variaveis';
 
 
-/* titulo
+@mixin titulo ($tamanho, $espacamento) {
+  font-family: $texto-principal;
+  line-height: $espacamento;
+  color: $texto-claro;
+  font-size: $tamanho;
+  font-weight: bold;
+}
 
-subtitulo */
+@mixin titulo-claro ($tamanho, $espacamento) {
+  font-family: $texto-principal;
+  line-height: $espacamento;
+  color: $texto-claro;
+  font-size: $tamanho;
+  font-weight: bold;
+}
 
-@mixin texto-padrao ($tamanho) {
-    font-family: $texto-corpo;
-    font-size: $p;
-    line-height: 1;
+@mixin titulo-escuro ($tamanho, $espacamento) {
+  font-family: $texto-principal;
+  line-height: $espacamento;
+  color: $texto-destaque;
+  font-size: $tamanho;
+  font-weight: bold;
+}
+
+@mixin subtitulo ($tamanho, $espacamento) {
+  font-family: $texto-corpo;
+  line-height: $espacamento;
+  color: $texto-claro;
+  font-size: $tamanho;
+  font-weight: bold;
+}
+
+@mixin texto-padrao ($tamanho, $espacamento) {
+    font-family: $texto-principal;
+    line-height: $espacamento;
     color: $texto-claro;
     font-size: $tamanho;
-  }
+}
+
+@mixin botao ($width, $height, $size) {
+  font-family: $texto-corpo;
+  font-size: $size;
+  color: $texto-escuro;
+  font-weight: bold;
+  text-align: center;
+  background-image: url('/fundo_botao.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: $width;
+  height: $height;
+  border: solid 2px $texto-claro;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* texto-destaque
 
@@ -19,7 +65,7 @@ card-transparente
 
 card-com-fundo
 
-botao
+
 
 container-videos
 
