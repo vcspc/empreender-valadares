@@ -9,6 +9,13 @@
   font-weight: bold;
 }
 
+@mixin texto ($tamanho, $espacamento, $fonte) {
+  font-family: $fonte;
+  line-height: $espacamento;
+  color: $texto-claro;
+  font-size: $tamanho;
+}
+
 @mixin titulo-claro ($tamanho, $espacamento) {
   font-family: $texto-principal;
   line-height: $espacamento;

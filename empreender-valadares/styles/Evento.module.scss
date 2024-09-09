@@ -1,0 +1,39 @@
+@import 'variaveis';
+@import 'mixins';
+
+.evento {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    text-align: center;
+
+    .container {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+        .sobretitulo {
+            @include texto ($pp, 1.5rem, $texto-principal);
+        }
+
+        .titulo {
+            font-family: $fonte-destaque;
+            line-height: 1rem;
+            color: $texto-destaque;
+            font-size: $g - 0.1rem;
+
+        }
+
+        .subtitulo {
+            @include texto ($ppp - 0.1rem, 1.5rem, $texto-principal);
+        }
+
+    }
+
+}

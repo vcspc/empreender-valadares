@@ -1,0 +1,32 @@
+@import 'variaveis';
+@import 'mixins';
+
+.item {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    @include texto-padrao ($ppp, 1rem);
+    width: 80%;
+
+
+    .container {
+
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: start;
+        line-height: 1rem;
+
+        img {
+            width: 1.4rem;
+        }
+
+        p {
+            margin-left: 0.4rem;
+        }
+
+
+    }
+}

@@ -1,6 +1,5 @@
-
-
-import Image from "next/image";
+import Texto from "../../components/Texto";
+import Item from "../../components/Item";
 import CardOK from "../../components/CardOK";
 import styles from "../../styles/index.module.scss";
 import CardNumeracao from "../../components/CardNumeracao";
@@ -8,6 +7,8 @@ import Wrapper from "../../components/Wrapper";
 import Localizadores from "../../components/Localizadores";
 import Botao from "../../components/Botao";
 import Titulo from "../../components/Titulo";
+import Evento from "../../components/Evento";
+
 
 export default function Home() {
   return (
@@ -32,6 +33,22 @@ export default function Home() {
         <Titulo 
           titulo="PARA QUEM É O EVENTO?"
           cor="titulo-claro"
+        />
+        <Item 
+          texto="Está farto de depender de indicações para encontrar clientes?"
+        />
+        <Evento 
+          sobretitulo="Evento"
+          titulo="EMPREENDER DIREITO"
+          subtitulo="Aprenda Gestão, Marketing e Vendas no Direito."
+        />
+        <Texto 
+          texto="O primeiro evento no Rio de Janeiro  que vai te ajudar a ter resultados na carreira jurídica e no seu escritório de advocacia."
+          style={{ fontWeight: 'bold', textAlign: 'center', }}
+        />
+        <Texto 
+          texto="VOCÊ VAI APRENDER COM A DRA. FERNANDA VALADARES E CONVIDADOS:"
+          style={{ textAlign: 'center', fontFamily: 'Bebas Neue, sans-serif', }}
         />
 
       </Wrapper>
