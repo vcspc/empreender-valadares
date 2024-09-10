@@ -1,0 +1,22 @@
+@import 'variaveis';
+@import 'mixins';
+
+
+
+    .gradiente {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to top, darkblue, transparent);
+        position: relative;
+        
+
+        img {
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            left: 0;
+        }
+    }
+

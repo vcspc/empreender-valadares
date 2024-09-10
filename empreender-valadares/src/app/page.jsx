@@ -8,12 +8,14 @@ import Localizadores from "../../components/Localizadores";
 import Botao from "../../components/Botao";
 import Titulo from "../../components/Titulo";
 import Evento from "../../components/Evento";
+import Apresentacao from "../../components/Apresentacao";
 
 
 export default function Home() {
   return (
     <main className={styles.conteudo}>
       <Wrapper style={{ flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }} fundo="fundo2">
+        <Apresentacao />
         <CardOK texto="Advogados autônomos que querem estruturar o seu escritório de forma eficiente."/>
         <CardNumeracao 
           numero="01"
