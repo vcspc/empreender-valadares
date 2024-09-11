@@ -1,0 +1,75 @@
+@import 'variaveis';
+@import 'mixins';
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+
+    .mentora {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        background-image: url("/fundo_card2.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 25px;
+        width: 80%;
+        position: relative;
+        height: 35rem;
+
+        .titulo {
+
+            @include titulo-escuro ($pp, 0rem);
+            margin: 2rem 0 2rem 0;
+
+        }
+
+        .texto {
+
+            @include texto-padrao ($pp, 1rem);
+            text-align: center;
+            width: 90%;
+            margin-bottom: 1rem;
+
+        }
+
+        .botao {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 15rem;
+            height: 5rem;
+            border-radius: 7px;
+            background-color: #fff;
+
+            .icone {
+
+                width: 1.5rem;
+                margin-right: 0.5rem
+
+            }
+            
+            p {
+
+                color: $texto-redes;
+
+            }
+
+        }
+
+        img {
+
+            position: absolute;
+            top: 20rem;
+
+        }
+    }
+}

@@ -9,6 +9,7 @@ import Botao from "../../components/Botao";
 import Titulo from "../../components/Titulo";
 import Evento from "../../components/Evento";
 import Apresentacao from "../../components/Apresentacao";
+import Mentora from "../../components/Mentora";
 
 
 export default function Home() {
@@ -52,7 +53,7 @@ export default function Home() {
           texto="VOCÊ VAI APRENDER COM A DRA. FERNANDA VALADARES E CONVIDADOS:"
           style={{ textAlign: 'center', fontFamily: 'Bebas Neue, sans-serif', }}
         />
-
+        <Mentora />
       </Wrapper>
     </main>
   );
