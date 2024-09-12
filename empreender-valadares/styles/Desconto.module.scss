@@ -1,0 +1,37 @@
+@import 'variaveis';
+@import 'mixins';
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/fundo_faixa.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: $texto-escuro;
+    border-radius: 15px;
+    
+
+    .caixa {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+        .texto {
+
+            font-family: $texto-principal;
+            text-align: center;
+
+            span {
+                font-weight: bold;
+            }
+
+        }
+
+    }
+
+}

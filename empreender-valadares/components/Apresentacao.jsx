@@ -6,7 +6,7 @@ export default function Apresentacao(props) {
     return (
         
         <div className={styles.gradiente}>
-            <img src="/imagem1.svg" alt="" />
+            <img src="/cabecalho.png" alt="" />
         </div>
         
     )

@@ -10,6 +10,7 @@ import Titulo from "../../components/Titulo";
 import Evento from "../../components/Evento";
 import Apresentacao from "../../components/Apresentacao";
 import Mentora from "../../components/Mentora";
+import Desconto from "../../components/Desconto";
 
 
 export default function Home() {
@@ -54,6 +55,7 @@ export default function Home() {
           style={{ textAlign: 'center', fontFamily: 'Bebas Neue, sans-serif', }}
         />
         <Mentora />
+        <Desconto />
       </Wrapper>
     </main>
   );

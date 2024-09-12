@@ -12,11 +12,11 @@ export default function Mentora(props) {
                 <Link href="https://www.instagram.com/valadaresefueta.adv?igsh=MmZhZmx5b2Nibnly" >
                     <div className={styles.botao} >
                         <img src="/instagram_azul.svg" alt="" className={styles.icone} />
-                        <p>valadaresefueta.adv</p>
+                        <p>fernandavaladares.adv</p>
                     </div>
                 </Link>
                 </div>
-                <img src="/mentora.svg" alt="" />
+                <img src="/mentora.svg" alt="" className={styles.mentora__img}/>
             </div>
         </div>
     )
