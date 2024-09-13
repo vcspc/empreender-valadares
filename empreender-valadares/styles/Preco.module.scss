@@ -1,0 +1,138 @@
+@import 'variaveis';
+@import 'mixins';
+
+.fundo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    background-image: url("/fundo_card.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5rem;
+    border-radius: 15px;
+    border: 1px solid $texto-claro;
+    height: 8rem;
+    padding: 0rem;
+
+    .texto {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        color: $texto-claro;
+        font-family: $texto-principal;
+        padding-bottom: 1rem;
+
+        .preco1 {
+
+            display: flex;
+            align-items: end;
+            justify-content: center;
+            flex-direction: row;
+          
+
+            .de {
+
+                font-size: $mm;
+                margin-right: 0.5rem;
+                align-self: flex-end;
+
+            }
+
+            .numeros1 {
+
+                display: flex;
+                align-items: start;
+                justify-content: start;
+                flex-direction: row;
+                height: 3rem;
+
+                .numeros1__cifrao {
+
+                    font-size: $pp;
+                    margin-top: 0.5rem;
+
+                }
+
+                .numeros1__maior {
+
+                    font-size: $gx;
+                    text-decoration: line-through;
+
+                    
+
+                }
+
+                .numeros1__centavos {
+
+                    font-size: $pp;
+                    align-self: end;
+                    text-decoration: line-through;
+                    margin-top: 0.5rem;
+
+
+                }
+
+            }
+
+        }
+
+        .preco2 {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+
+            .por {
+
+                font-size: $mm;
+                margin-right: 0.5rem;
+                align-self: flex-end;
+
+            }
+
+            .numeros2 {
+
+                display: flex;
+                align-items: start;
+                justify-content: start;
+                flex-direction: row;
+                height: 3rem;
+
+                .numeros2__cifrao {
+
+                    font-size: $pp;
+                    margin-top: 0.5rem;
+
+                }
+
+                .numeros2__maior {
+
+                    font-size: $gx + 0.6rem;
+                    font-weight: bold;
+                    align-self: baseline;
+                    height: 3rem;
+                    
+
+                }
+
+                .numeros2__centavos {
+
+                    font-size: $pp;
+                    align-self: end;
+                    margin-top: 0.5rem;
+                    
+                }
+
+            }
+
+        }
+
+    }
+
+}

@@ -12,6 +12,8 @@
     background-size: cover;
     color: $texto-escuro;
     border-radius: 15px;
+    width: 90%;
+    height: 3rem;
     
 
     .caixa {
@@ -19,12 +21,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 90%;
+        height: 85%;
         
 
         .texto {
 
             font-family: $texto-principal;
             text-align: center;
+            font-size: $ppp + 0.1rem;
 
             span {
                 font-weight: bold;

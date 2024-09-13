@@ -3,4 +3,5 @@
 
 .botao {
     @include botao (15rem, 2rem, $ppp);
+    margin: 1rem 0 1rem 0; 
 }
