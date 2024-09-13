@@ -1,4 +1,3 @@
-import Texto from "../../components/Texto";
 import Item from "../../components/Item";
 import CardOK from "../../components/CardOK";
 import styles from "../../styles/index.module.scss";
@@ -14,6 +13,7 @@ import Desconto from "../../components/Desconto";
 import Preco from "../../components/Preco";
 import Header from "../../components/Header";
 import ItemLocalizadores from "../../components/ItemLocalizadores";
+import Texto from "../../components/Texto";
 
 export default function Home() {
   return (
@@ -99,6 +99,28 @@ export default function Home() {
           />
           
         </Wrapper>
+        <Wrapper style={{ flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }} fundo="fundo3">
+          <Titulo 
+            titulo="EM UM GRUPO EXCLUSIVO"
+            cor="titulo-escuro"
+            /* style={{ marginBottom: '0rem', marginTop: '2rem', }} */
+          />
+          <Texto 
+            texto="Dicas de vestimenta, comunicação com o cliente, concorrência e Instagram."
+            style={{ fontFamily: 'Helvetica, sans-serif', marginBottom: '2rem', marginTop: '0.6rem', width: '70%', }}
+          />
+        </Wrapper>
+        <Wrapper style={{ flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }} >
+          <Titulo 
+            titulo="SÃO MAIS DE 15 ANOS DE EXPERIÊNCIA JURÍDICA EM UM DIA INTEIRO DE TREINAMENTO!"
+            cor="titulo-azul"
+            style={{ alignSelf: 'center', textAlign: 'center', width: '80%', marginBottom: '1rem', marginTop: '2rem', }}
+          />
+          <Mentora />
+        </Wrapper>
+        <Wrapper style={{ flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }} fundo="fundo3" >
+
+        </Wrapper>
           <Localizadores 
             icone="/localizador.svg"
             alt="icone de localizador"
@@ -109,7 +131,7 @@ export default function Home() {
           
           
           
-          <Mentora />
+          
           <Desconto />
           <Preco 
             preco1="499"

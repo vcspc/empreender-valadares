@@ -31,6 +31,13 @@
   font-size: $tamanho;
   font-weight: bold;
 }
+@mixin titulo-azul ($tamanho, $espacamento) {
+  font-family: $texto-principal;
+  line-height: $espacamento;
+  color: $texto-redes;
+  font-size: $tamanho;
+  font-weight: bold;
+}
 
 @mixin subtitulo ($tamanho, $espacamento) {
   font-family: $texto-corpo;

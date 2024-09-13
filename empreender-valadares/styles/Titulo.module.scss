@@ -9,3 +9,8 @@
     @include titulo-claro ($p, 0rem);
     margin: 3rem 0 3rem 0;
 }
+
+.titulo-azul {
+    @include titulo-azul ($p, 20px);
+    margin: 3rem 0 3rem 0;
+}
