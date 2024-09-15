@@ -1,0 +1,25 @@
+@import 'variaveis';
+@import 'mixins';
+
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+
+    .video {
+        height: 33.5rem;
+        width: 80%;
+    }
+
+    .texto {
+        font-family: $texto-corpo;
+        font-size: $p;
+        font-weight: bold;
+        color: $texto-claro;
+        text-align: center;
+        margin-top: 1rem;
+    }
+}

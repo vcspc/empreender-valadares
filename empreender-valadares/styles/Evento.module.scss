@@ -11,7 +11,46 @@
     text-align: center;
     position: absolute;
     z-index: 1;
-    top: 10rem;
+    top: 11.5rem;
+
+    .container {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+        .sobretitulo {
+            @include texto ($pp, 1.5rem, $texto-principal);
+        }
+
+        .titulo {
+            font-family: $fonte-destaque;
+            line-height: 1rem;
+            color: $texto-destaque;
+            font-size: $g - 0.1rem;
+
+        }
+
+        .subtitulo {
+            @include texto ($ppp - 0.1rem, 1.5rem, $texto-principal);
+        }
+
+    }
+
+}
+
+.evento2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 
     .container {
 

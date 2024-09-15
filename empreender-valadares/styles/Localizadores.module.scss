@@ -7,9 +7,11 @@
     align-items: center;
     justify-content: center;
     width: 80%;
-    height: 7rem;
+    height: 7.5rem;
     border: solid 1px $texto-claro;
     border-radius: 15px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 
     .container {
         display: flex;

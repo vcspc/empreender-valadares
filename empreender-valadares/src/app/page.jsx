@@ -14,6 +14,9 @@ import Preco from "../../components/Preco";
 import Header from "../../components/Header";
 import ItemLocalizadores from "../../components/ItemLocalizadores";
 import Texto from "../../components/Texto";
+import Video from "../../components/Video";
+import PerguntasFrequentes from "../../components/PerguntasFrequentes";
+import Footer from "../../components/Footer";
 
 export default function Home() {
   return (
@@ -108,9 +111,10 @@ export default function Home() {
           <Texto 
             texto="Dicas de vestimenta, comunicação com o cliente, concorrência e Instagram."
             style={{ fontFamily: 'Helvetica, sans-serif', marginBottom: '2rem', marginTop: '0.6rem', width: '70%', }}
+            classe="texto"
           />
         </Wrapper>
-        <Wrapper style={{ flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }} >
+        <Wrapper style={{ flexDirection: 'column', alignItems: 'center', justifyContent: 'center', }} >
           <Titulo 
             titulo="SÃO MAIS DE 15 ANOS DE EXPERIÊNCIA JURÍDICA EM UM DIA INTEIRO DE TREINAMENTO!"
             cor="titulo-azul"
@@ -118,20 +122,27 @@ export default function Home() {
           />
           <Mentora />
         </Wrapper>
-        <Wrapper style={{ flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }} fundo="fundo3" >
-
-        </Wrapper>
+        <Wrapper style={{ flexDirection: 'column', alignItems: 'center', width: '100%', marginTop: '1.6rem' }} fundo="fundo4" >
+          <Evento 
+            sobretitulo="Evento"
+            titulo="SUCESSO JURÍDICO"
+            subtitulo="Aprenda Gestão, Marketing e Vendas no Direito."
+            estilo="evento2"
+          />
           <Localizadores 
             icone="/localizador.svg"
             alt="icone de localizador"
             titulo="Endereço"
             texto="Rio de Janeiro-RJ / Barra da Tijuca"
           />
-          
-          
-          
-          
-          
+          <Localizadores 
+            icone="/calendario.svg"
+            alt="icone de localizador"
+            titulo="Programação"
+            texto="09 de novembro das 09h00 às 18h00."
+          />
+        </Wrapper>
+        <Wrapper style={{ flexDirection: 'column', alignItems: 'center', width: '100%', marginTop: '1.6rem' }} fundo="fundo5" >
           <Desconto />
           <Preco 
             preco1="499"
@@ -139,6 +150,51 @@ export default function Home() {
             preco2="249"
             centavos2=",90"
           />
+          <Botao 
+            texto="GARANTIR MEU INGRESSO AGORA" 
+            href="https://www.sympla.com.br/evento/empreender-direito/2616937?share_id=whatsapp" 
+          />
+        </Wrapper>
+        <Wrapper style={{ flexDirection: 'column', alignItems: 'center', width: '100%', }} fundo="fundo6" >
+          <Titulo 
+            titulo="VEJA O DEPOIMENTO DE ALGUNS DE SEUS MENTORADOS:"
+            cor="titulo-escuro"
+            style={{ alignSelf: 'center', textAlign: 'center', width: '85%', marginBottom: '1rem', marginTop: '2rem', lineHeight: '1.5rem', }}
+          />
+          <Video
+            video="/depoimento_fernanda.mp4" 
+            titulo="Depoimento Fernanda"
+            texto="Depoimento Fernanda"
+          />
+          <Video
+            video="/depoimento_patricia.mp4" 
+            titulo="Depoimento Patrícia"
+            texto="Depoimento Patrícia"
+          />
+          <Video
+            video="/depoimento_helida.mp4" 
+            titulo="Depoimento Hélida"
+            texto="Depoimento Hélida"
+          />
+        </Wrapper>
+        <Wrapper style={{ flexDirection: 'column', alignItems: 'center', width: '100%', }} fundo="fundo7" >
+          <Texto 
+            texto="Dominar apenas a teoria ensinada na faculdade não é suficiente para construir uma carreira e uma empresa sustentável e lucrativa em um mercado competitivo."
+            style={{ fontFamily: 'Helvetica, sans-serif', marginBottom: '1rem', marginTop: '1rem', }}
+            classe="texto2"
+          />
+          <Botao 
+            texto="GARANTIR MEU INGRESSO AGORA" 
+            href="https://www.sympla.com.br/evento/empreender-direito/2616937?share_id=whatsapp" 
+          />
+          <Titulo 
+            titulo="PERGUNTAS FREQUENTES"
+            cor="titulo-claro"
+            style={{ alignSelf: 'center', textAlign: 'center', width: '85%', marginBottom: '1rem', marginTop: '2rem', lineHeight: '1.5rem', }}
+          />
+          <PerguntasFrequentes />
+        </Wrapper>
+        <Footer />   
       </>
     </main>
   );

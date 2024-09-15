@@ -11,10 +11,12 @@ export default function Header() {
                 sobretitulo="Evento"
                 titulo="EMPREENDER DIREITO"
                 subtitulo="Aprenda Gestão, Marketing e Vendas no Direito."
+                estilo="evento"
             />
             <Texto 
                 texto="O primeiro evento no Rio de Janeiro  que vai te ajudar a ter resultados na carreira jurídica e no seu escritório de advocacia."
                 style={{ fontWeight: 'bold', textAlign: 'center', fontFamily: 'Helvetica', position: 'absolute', top: '16rem' }}
+                classe="texto"
             />
         </header>
     );
