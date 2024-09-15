@@ -43,7 +43,7 @@ export default function Home() {
           />
           <ItemLocalizadores 
             texto="Das 09h às 18h."
-            icone="/calendario.svg"
+            icone="/relogio.svg"
           />
           <ItemLocalizadores 
             texto="Rio de Janeiro-RJ."
@@ -58,7 +58,6 @@ export default function Home() {
           <CardOK texto="Advogados recém formados e que possuem a carteira da OAB mas não sabem empreender no direito."/>
           <CardOK texto="Sócios de escritórios de advocacia que querem impulsionar a gestão, as vendas e o marketing."/>
         </Wrapper>
-
         <Wrapper style={{ flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }} fundo="fundo2"  >
           <Titulo 
             titulo="EM UM GRUPO EXCLUSIVO"
