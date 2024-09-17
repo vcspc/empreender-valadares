@@ -15,7 +15,27 @@
         
 
         img {
-            width: 20rem;
+            width: 100%;
         }
+    }
+
+    @media (min-width: 768px) {
+
+        .gradiente {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            height: 21rem;
+            width: 100%;
+            
+            
+    
+            img {
+                width: 20rem;
+            }
+        }
+
     }
 
