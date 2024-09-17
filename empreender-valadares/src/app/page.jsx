@@ -7,7 +7,6 @@ import Localizadores from "../../components/Localizadores";
 import Botao from "../../components/Botao";
 import Titulo from "../../components/Titulo";
 import Evento from "../../components/Evento";
-import Apresentacao from "../../components/Apresentacao";
 import Mentora from "../../components/Mentora";
 import Desconto from "../../components/Desconto";
 import Preco from "../../components/Preco";
