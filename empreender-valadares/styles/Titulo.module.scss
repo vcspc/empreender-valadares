@@ -1,16 +1,70 @@
 @import 'variaveis';
 @import 'mixins';
 
-.titulo-escuro {
-    @include titulo-escuro ($p, 0rem);
+.container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+
+    .titulo-escuro {
+        @include titulo-escuro ($p, 0rem);
+        align-self: center;
+        width: '80%';
+        text-align: center;
+    }
+
+    .titulo-claro {
+        @include titulo-claro ($p, 0rem);
+        margin: 3rem 0 3rem 0;
+        align-self: center;
+        width: '80%';
+        text-align: center;
+    }
+
+    .titulo-azul {
+        @include titulo-azul ($p, 20px);
+        margin: 3rem 0 3rem 0;
+        align-self: center;
+        width: '80%';
+        text-align: center;
+    }
+
 }
 
-.titulo-claro {
-    @include titulo-claro ($p, 0rem);
-    margin: 3rem 0 3rem 0;
-}
+@media (min-width: 768px) {
 
-.titulo-azul {
-    @include titulo-azul ($p, 20px);
-    margin: 3rem 0 3rem 0;
+    .container {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+
+        .titulo-escuro {
+            @include titulo-escuro ($p, 0rem);
+            align-self: center;
+            text-align: center;
+        }
+        
+        .titulo-claro {
+            @include titulo-claro ($p, 0rem);
+            margin: 3rem 0 3rem 0;
+            align-self: center;
+            text-align: center;
+        }
+        
+        .titulo-azul {
+            @include titulo-azul ($p, 20px);
+            margin: 3rem 0 3rem 0;
+            align-self: center;
+            text-align: center;
+
+        } 
+
+    }
+
 }

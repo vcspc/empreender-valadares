@@ -8,3 +8,15 @@
     border: solid 1px $texto-claro;
     margin-bottom: 3rem;
 }
+
+@media (min-width: 768px) {
+
+    .faqContainer {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        border: solid 1px $texto-claro;
+        margin-bottom: 3rem;
+    }
+
+}

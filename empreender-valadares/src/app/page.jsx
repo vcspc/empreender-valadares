@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <main className={styles.conteudo}>
       <>
-        <Wrapper style={{ flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }} fundo="fundo3"  >
+        <Wrapper style={{ flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', }} fundo="fundo3"  >
           <Header />
           <Item 
             texto="Está farto de depender de indicações para encontrar clientes?"
@@ -67,7 +67,7 @@ export default function Home() {
           <Titulo 
             titulo="VOCÊ VAI APRENDER COM A DRA. FERNANDA VALADARES E CONVIDADOS:"
             cor="titulo-claro"
-            style={{ textAlign: 'center', fontFamily: 'Bebas Neue, sans-serif', marginBottom: '2rem', marginTop: '0.6rem', lineHeight: '20px', width: '80%', }}
+            style={{ textAlign: 'center', fontFamily: 'Bebas Neue, sans-serif', marginBottom: '2rem', marginTop: '0.6rem', lineHeight: '20px', width: '80%', fontWeight: '400', }}
           />
           <CardNumeracao 
             numero="01"
@@ -100,7 +100,7 @@ export default function Home() {
             texto="Explore o futuro da advocacia com a inteligência artificial, potencializando sua prática jurídica com inovação, eficiência e soluções automatizadas."
           />
           <Titulo 
-            titulo="EM UM GRUPO EXCLUSIVO"
+            titulo="ALÉM DE TUDO ISSO VOCÊ TERÁ:"
             cor="titulo-escuro"
             /* style={{ marginBottom: '0rem', marginTop: '2rem', }} */
           />
@@ -110,14 +110,11 @@ export default function Home() {
             classe="texto"
           />
         </Wrapper>
-        {/* <Wrapper style={{ flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }} fundo="fundo3">
-          
-        </Wrapper> */}
         <Wrapper style={{ flexDirection: 'column', alignItems: 'center', justifyContent: 'center', }} >
           <Titulo 
             titulo="SÃO MAIS DE 15 ANOS DE EXPERIÊNCIA JURÍDICA EM UM DIA INTEIRO DE TREINAMENTO!"
             cor="titulo-azul"
-            style={{ alignSelf: 'center', textAlign: 'center', width: '80%', marginBottom: '1rem', marginTop: '2rem', }}
+            style={{ marginBottom: '1rem', marginTop: '2rem', }}
           />
           <Mentora />
         </Wrapper>

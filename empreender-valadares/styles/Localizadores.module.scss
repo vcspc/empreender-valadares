@@ -38,3 +38,45 @@
         }
     }
 }
+
+@media (min-width: 768px) {
+    
+    .fundo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        height: 7.5rem;
+        border: solid 1px $texto-claro;
+        border-radius: 15px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 85%;
+            height: 80%;
+    
+    
+            img {
+                width: 1.4rem;
+                margin-bottom: 1rem;
+            }
+    
+            .titulo {
+                @include titulo($ppp, 0rem);
+                margin-bottom: 0.5rem;
+            }
+    
+            .texto {
+                @include texto-padrao($ppp, 1rem);
+                text-align: center;
+            }
+        }
+    }
+
+}

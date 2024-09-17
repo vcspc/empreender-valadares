@@ -21,3 +21,28 @@
     width: 80%;
     font-weight: bold;
 }
+
+@media (min-width: 768px) {
+    
+    .texto {
+        @include texto-padrao ($ppp, 1rem);
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+    
+    
+    }
+    
+    .texto2 {
+        @include texto-padrao ($p, 1.2rem);
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        font-weight: bold;
+    }
+
+}
