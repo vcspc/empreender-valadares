@@ -18,6 +18,7 @@ import Video from "../../components/Video";
 import PerguntasFrequentes from "../../components/PerguntasFrequentes";
 import Footer from "../../components/Footer";
 
+
 export default function Home() {
   return (
     <main className={styles.conteudo}>
@@ -58,7 +59,7 @@ export default function Home() {
           <CardOK texto="Advogados recém formados e que possuem a carteira da OAB mas não sabem empreender no direito."/>
           <CardOK texto="Sócios de escritórios de advocacia que querem impulsionar a gestão, as vendas e o marketing."/>
         </Wrapper>
-        <Wrapper style={{ flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }} fundo="fundo2"  >
+        <Wrapper style={{ flexDirection: 'column', alignItems: 'center', }} fundo="fundo2"  >
           <Titulo 
             titulo="EM UM GRUPO EXCLUSIVO"
             cor="titulo-claro"
@@ -99,9 +100,6 @@ export default function Home() {
             titulo="INTELIGÊNCIA ARTIFICIAL PARA ADVOGADOS"
             texto="Explore o futuro da advocacia com a inteligência artificial, potencializando sua prática jurídica com inovação, eficiência e soluções automatizadas."
           />
-          
-        </Wrapper>
-        <Wrapper style={{ flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }} fundo="fundo3">
           <Titulo 
             titulo="EM UM GRUPO EXCLUSIVO"
             cor="titulo-escuro"
@@ -113,6 +111,9 @@ export default function Home() {
             classe="texto"
           />
         </Wrapper>
+        {/* <Wrapper style={{ flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }} fundo="fundo3">
+          
+        </Wrapper> */}
         <Wrapper style={{ flexDirection: 'column', alignItems: 'center', justifyContent: 'center', }} >
           <Titulo 
             titulo="SÃO MAIS DE 15 ANOS DE EXPERIÊNCIA JURÍDICA EM UM DIA INTEIRO DE TREINAMENTO!"
@@ -141,7 +142,7 @@ export default function Home() {
             texto="09 de novembro das 09h00 às 18h00."
           />
         </Wrapper>
-        <Wrapper style={{ flexDirection: 'column', alignItems: 'center', width: '100%', marginTop: '1.6rem' }} fundo="fundo5" >
+        <Wrapper style={{ flexDirection: 'column', alignItems: 'center', width: '100%', }} fundo="fundo5" >
           <Desconto />
           <Preco 
             preco1="499"

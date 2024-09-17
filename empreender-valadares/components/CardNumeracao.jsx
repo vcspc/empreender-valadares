@@ -8,8 +8,10 @@ export default function CardNumeracao (props){
                 <div className={styles.faixa}>
                     <p>{props.numero}</p>
                 </div>
-                <p className={styles.titulo}>{props.titulo}</p>
-                <p className={styles.texto}>{props.texto}</p>
+                <div className={styles.conteudo}>
+                    <p className={styles.titulo}>{props.titulo}</p>
+                    <p className={styles.texto}>{props.texto}</p>
+                </div>
             </div>
         </div>
     )
