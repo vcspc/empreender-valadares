@@ -9,7 +9,7 @@ export default function Mentora(props) {
                 <p className={styles.texto}>Você vai aprender com a Advogada e Mentora Fernanda Valadares. Sócia do Escritório Valadares e Fueta Advogados.</p>
                 <p className={styles.texto}>Com mais de 15 anos de experiência no setor jurídico, Fernanda Valadares já mentorou diversos advogados que precisavam de um caminho mais claro para o sucesso na sua carreira jurídica.</p>
                 <div className={styles.botao}>
-                <Link href="https://www.instagram.com/valadaresefueta.adv?igsh=MmZhZmx5b2Nibnly" >
+                <Link href="https://www.instagram.com/fernandavaladares.adv/" >
                     <div className={styles.botao} >
                         <img src="/instagram_azul.svg" alt="" className={styles.icone} />
                         <p>fernandavaladares.adv</p>

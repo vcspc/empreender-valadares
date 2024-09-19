@@ -16,6 +16,7 @@ import Texto from "../../components/Texto";
 import Video from "../../components/Video";
 import PerguntasFrequentes from "../../components/PerguntasFrequentes";
 import Footer from "../../components/Footer";
+import Texto2 from "../../components/Texto2";
 
 
 export default function Home() {
@@ -67,7 +68,7 @@ export default function Home() {
           <Titulo 
             titulo="VOCÊ VAI APRENDER COM A DRA. FERNANDA VALADARES E CONVIDADOS:"
             cor="titulo-claro"
-            style={{ textAlign: 'center', fontFamily: 'Bebas Neue, sans-serif', marginBottom: '2rem', marginTop: '0.6rem', lineHeight: '20px', width: '80%', fontWeight: '400', }}
+            style={{ textAlign: 'center', fontFamily: 'Bebas Neue, sans-serif', marginBottom: '2rem', marginTop: '1rem', width: '80%', fontWeight: '400', }}
           />
           <CardNumeracao 
             numero="01"
@@ -106,7 +107,7 @@ export default function Home() {
           />
           <Texto 
             texto="Dicas de vestimenta, comunicação com o cliente, concorrência e Instagram."
-            style={{ fontFamily: 'Helvetica, sans-serif', marginBottom: '2rem', marginTop: '0.6rem', }}
+            style={{ fontFamily: 'Helvetica, sans-serif', marginBottom: '2rem', marginTop: '1rem', }}
             classe="texto"
           />
         </Wrapper>
@@ -121,9 +122,14 @@ export default function Home() {
         <Wrapper style={{ flexDirection: 'column', alignItems: 'center', width: '100%', marginTop: '1.6rem' }} fundo="fundo4" >
           <Evento 
             sobretitulo="Evento"
-            titulo="SUCESSO JURÍDICO"
+            titulo="EMPREENDER DIREITO"
             subtitulo="by Fernanda Valadares"
             estilo="evento2"
+          />
+          <Texto2
+            texto="Aprenda Gestão, Marketing e Vendas no Direito."
+            style={{ textAlign: 'center', fontFamily: 'Helvetica', }}
+            classe="texto"
           />
           <Localizadores 
             icone="/localizador.svg"

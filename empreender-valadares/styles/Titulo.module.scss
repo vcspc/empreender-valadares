@@ -17,7 +17,7 @@
     }
 
     .titulo-claro {
-        @include titulo-claro ($p, 0rem);
+        @include titulo-claro ($p, 1.2rem);
         margin: 3rem 0 3rem 0;
         align-self: center;
         width: '80%';
@@ -51,7 +51,7 @@
         }
         
         .titulo-claro {
-            @include titulo-claro ($p, 0rem);
+            @include titulo-claro ($p, 1rem);
             margin: 3rem 0 3rem 0;
             align-self: center;
             text-align: center;
@@ -87,10 +87,11 @@
         }
         
         .titulo-claro {
-            @include titulo-claro ($mm, 0rem);
+            @include titulo-claro ($mm, 1.7rem);
             margin: 4rem 0 4rem 0;
             align-self: center;
             text-align: center;
+
         }
         
         .titulo-azul {
