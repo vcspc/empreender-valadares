@@ -78,6 +78,87 @@
     
 }
 
+@media (max-width: 330px) {
+
+    .fundo {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url('/fundo_card2.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border: solid 1px $texto-claro;
+        border-radius: 15px;
+        width: 60%;
+        height: 13rem;
+        margin-bottom: 2rem;
+    
+        .container {
+    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: start;
+            width: 90%;
+            height: 90%;
+            
+    
+            .faixa {
+                
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                @include titulo($p, 0rem);
+                background-image: url('/fundo_faixa.svg');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                border-radius: 10px;
+                width: 100%;
+                height: 2.2rem;
+                margin-bottom: 0.4rem;
+    
+                p {
+                    width: 88%;
+                }
+    
+    
+            }
+    
+            .conteudo {
+    
+                display: flex;
+                flex-direction: column;
+                /* align-items: center; */
+                justify-content: start;
+    
+                .titulo {
+        
+                    @include subtitulo($ppp, 1rem);
+                    margin-bottom: 0.1rem;
+            
+                }
+            
+                .texto {
+        
+                    @include texto-padrao($ppp - 2rem, 0.7rem);
+            
+                }
+    
+            }
+        
+    
+        }
+        
+        
+    }
+
+}
+
 @media (min-width: 768px) {
     
     .fundo {

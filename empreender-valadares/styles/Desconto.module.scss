@@ -42,6 +42,52 @@
 
 }
 
+@media (max-width: 330px) {
+
+    .container {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('/fundo_faixa.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: $texto-escuro;
+        border-radius: 15px;
+        width: 90%;
+        height: 5rem;
+        margin: 1rem 0 1rem 0;
+        
+    
+        .caixa {
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+            height: 85%;
+            
+    
+            .texto {
+    
+                font-family: $texto-principal;
+                text-align: center;
+                font-size: $ppp + 0.1rem;
+                line-height: 1.1rem;
+    
+                span {
+                    font-weight: bold;
+                }
+    
+            }
+    
+        }
+    
+    }
+
+}
+
 @media (min-width: 768px) {
 
     .container {

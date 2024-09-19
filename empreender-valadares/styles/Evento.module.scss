@@ -81,6 +81,90 @@
 
 }
 
+@media (max-width: 330px) {
+
+    .evento {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        z-index: 1;
+        top: 9rem;
+    
+        .container {
+    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
+    
+            .sobretitulo {
+                @include texto ($p, 2rem, $texto-principal);
+            }
+    
+            .titulo {
+                font-family: $fonte-destaque;
+                line-height: 1rem;
+                color: $texto-destaque;
+                font-size: $mm - 0.1rem;
+                line-height: 0.8rem;
+    
+            }
+    
+            .subtitulo {
+                @include texto ($ppp - 0.2rem, 1.5rem, $texto-principal);
+            }
+    
+        }
+    
+    }
+    
+    .evento2 {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+        text-align: center;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    
+        .container {
+    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
+    
+            .sobretitulo {
+                @include texto ($pp, 1.5rem, $texto-principal);
+            }
+    
+            .titulo {
+                font-family: $fonte-destaque;
+                line-height: 1rem;
+                color: $texto-destaque;
+                font-size: $mm - 0.1rem;
+    
+            }
+    
+            .subtitulo {
+                @include texto ($ppp - 0.1rem, 1.5rem, $texto-principal);
+            }
+    
+        }
+    
+    }
+    
+}
+
 @media (min-width: 1024px) {
 
     .evento {
@@ -167,3 +251,4 @@
     
 
 }
+

@@ -34,6 +34,43 @@
 
 }
 
+@media (max-width: 330px) {
+
+    .container {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    
+        .titulo-escuro {
+            @include titulo-escuro ($pp, 0rem);
+            align-self: center;
+            width: '80%';
+            text-align: center;
+        }
+    
+        .titulo-claro {
+            @include titulo-claro ($pp, 1.2rem);
+            margin: 3rem 0 3rem 0;
+            align-self: center;
+            width: '80%';
+            text-align: center;
+        }
+    
+        .titulo-azul {
+            @include titulo-azul ($pp, 20px);
+            margin: 3rem 0 3rem 0;
+            align-self: center;
+            width: '80%';
+            text-align: center;
+        }
+    
+    }
+
+}
+
 @media (min-width: 768px) {
 
     .container {

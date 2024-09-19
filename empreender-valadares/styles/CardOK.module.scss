@@ -46,6 +46,55 @@
     }
 }
 
+@media (max-width: 330px) {
+
+    .container {
+
+        display: flex;
+        width: 60%;
+        height: 9rem;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        position: relative;
+        
+    
+    
+    
+        img {
+            position: absolute;
+            top: -2rem;
+            width: 3.5rem;
+            
+        }
+    
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: url('/fundo_card.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            border: solid 1px $texto-claro;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            border-radius: 15px;
+        
+            @include texto-padrao ($ppp - 0.1rem, 0.8rem);
+    
+            .texto {
+                width: 80%;
+            }
+    
+        }
+    }
+
+}
+
 @media (min-width: 768px) {
 
     .container {
