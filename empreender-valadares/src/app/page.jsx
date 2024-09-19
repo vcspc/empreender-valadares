@@ -62,7 +62,7 @@ export default function Home() {
           <Titulo 
             titulo="EM UM GRUPO EXCLUSIVO"
             cor="titulo-claro"
-            style={{ marginBottom: '0rem', marginTop: '2rem', }}
+            style={{ marginBottom: '0.5rem', marginTop: '2rem', }}
           />
           <Titulo 
             titulo="VOCÊ VAI APRENDER COM A DRA. FERNANDA VALADARES E CONVIDADOS:"
@@ -106,7 +106,7 @@ export default function Home() {
           />
           <Texto 
             texto="Dicas de vestimenta, comunicação com o cliente, concorrência e Instagram."
-            style={{ fontFamily: 'Helvetica, sans-serif', marginBottom: '2rem', marginTop: '0.6rem', width: '70%', }}
+            style={{ fontFamily: 'Helvetica, sans-serif', marginBottom: '2rem', marginTop: '0.6rem', }}
             classe="texto"
           />
         </Wrapper>
@@ -122,7 +122,7 @@ export default function Home() {
           <Evento 
             sobretitulo="Evento"
             titulo="SUCESSO JURÍDICO"
-            subtitulo="Aprenda Gestão, Marketing e Vendas no Direito."
+            subtitulo="by Fernanda Valadares"
             estilo="evento2"
           />
           <Localizadores 

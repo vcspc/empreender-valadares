@@ -50,4 +50,58 @@
     width: 95%;
 
   }
+
+  @media (min-width: 1024px) {
+
+    .faqItem {
+      /* border-bottom: 0.1px solid #e2e8f0; */
+      padding: 1rem 0;
+      border-bottom: solid 0.5px #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  
+  
+    }
+    
+    .faqButton {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 90%;
+      font-size: $p;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: $texto-claro;
+      line-height: 17px;
+  
+      img {
+          justify-self: flex-start;
+      }
+  
+      span {
+          font-family: $texto-corpo;
+          text-align: left;
+          margin-left: 0.5rem;
+      }
+  
+    }
+    
+    .faqButton:hover {
+  
+    }
+    
+    .answer {
+      margin-top: 0.5rem;
+      color: $texto-claro;
+      font-size: $pp;
+      text-align: justify;
+      font-family: $texto-corpo;
+      width: 95%;
+  
+    }
+
+  }
   

@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 70%;
 
 
 }
@@ -43,6 +43,22 @@
         align-items: center;
         width: 40%;
         font-weight: bold;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    
+    .texto {
+        @include texto-padrao ($p, 1rem);
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35%;
+        
+    
     }
 
 }

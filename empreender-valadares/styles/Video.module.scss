@@ -49,3 +49,29 @@
     }
 
 }
+
+@media (min-width: 1024px) {
+
+    .container {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 3rem 0 3rem 0;
+    
+        .video {
+            height: 33.5rem;
+            width: 33%;
+        }
+    
+        .texto {
+            font-family: $texto-corpo;
+            font-size: $p;
+            font-weight: bold;
+            color: $texto-claro;
+            text-align: center;
+            margin-top: 1rem;
+        }
+    }
+
+}

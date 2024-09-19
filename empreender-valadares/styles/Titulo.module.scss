@@ -83,6 +83,7 @@
             @include titulo-escuro ($mm, 0rem);
             align-self: center;
             text-align: center;
+            margin-top: 1rem;
         }
         
         .titulo-claro {
@@ -93,10 +94,11 @@
         }
         
         .titulo-azul {
-            @include titulo-azul ($mm, 20px);
+            @include titulo-azul ($mm, 25px);
             margin: 4rem 0 4rem 0;
             align-self: center;
             text-align: center;
+            width: 70%;
 
         } 
 
