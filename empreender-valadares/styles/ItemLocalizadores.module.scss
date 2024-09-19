@@ -31,3 +31,39 @@
 
     }
 }
+
+@media (min-width: 1024px) {
+
+    .item {
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        @include texto-padrao ($p, 0rem);
+        width: 80%;
+        margin-bottom: 1rem;
+        margin-top: 0.5rem;
+    
+    
+        .container {
+    
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: start;
+            line-height: 1rem;
+    
+            img {
+                width: 1.5rem;
+            }
+    
+            p {
+                margin-left: 0.4rem;
+            }
+    
+    
+        }
+    }    
+
+}

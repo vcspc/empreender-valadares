@@ -1,7 +1,7 @@
 import styles from "../styles/Header.module.scss";
 import Apresentacao from "../components/Apresentacao";
 import Evento from "../components/Evento";
-import Texto from "../components/Texto";
+import Texto2 from "../components/Texto2";
 
 export default function Header() {
     return (
@@ -10,14 +10,20 @@ export default function Header() {
             <Evento 
                 sobretitulo="Evento"
                 titulo="EMPREENDER DIREITO"
-                subtitulo="Aprenda Gestão, Marketing e Vendas no Direito."
+                subtitulo="by Fernanda Valadares"
                 estilo="evento"
             />
-            <Texto 
-                texto="O primeiro evento no Rio de Janeiro  que vai te ajudar a ter resultados na carreira jurídica e no seu escritório de advocacia."
-                style={{ fontWeight: 'bold', textAlign: 'center', fontFamily: 'Helvetica', position: 'absolute', top: '16rem' }}
+            <Texto2
+                texto="Aprenda Gestão, Marketing e Vendas no Direito."
+                style={{ textAlign: 'center', fontFamily: 'Helvetica', }}
                 classe="texto"
             />
+            <Texto2
+                texto="O primeiro evento no Rio de Janeiro  que vai te ajudar a ter resultados na carreira jurídica e no seu escritório de advocacia."
+                style={{ textAlign: 'center', fontFamily: 'Helvetica', }}
+                classe="texto2"
+            />
+
         </header>
     );
 }

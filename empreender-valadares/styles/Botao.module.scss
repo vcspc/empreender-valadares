@@ -5,3 +5,12 @@
     @include botao (15rem, 2rem, $ppp);
     margin: 1rem 0 1rem 0; 
 }
+
+@media (min-width: 1024px) {
+
+    .botao {
+        @include botao (22rem, 2.8rem, $pp);
+        margin: 1.5rem 0 1.5rem 0; 
+    }
+
+}

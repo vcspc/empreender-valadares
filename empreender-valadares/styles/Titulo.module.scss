@@ -68,3 +68,38 @@
     }
 
 }
+
+@media (min-width: 1024px) {
+
+    .container {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+
+        .titulo-escuro {
+            @include titulo-escuro ($mm, 0rem);
+            align-self: center;
+            text-align: center;
+        }
+        
+        .titulo-claro {
+            @include titulo-claro ($mm, 0rem);
+            margin: 4rem 0 4rem 0;
+            align-self: center;
+            text-align: center;
+        }
+        
+        .titulo-azul {
+            @include titulo-azul ($mm, 20px);
+            margin: 4rem 0 4rem 0;
+            align-self: center;
+            text-align: center;
+
+        } 
+
+    }
+
+}
