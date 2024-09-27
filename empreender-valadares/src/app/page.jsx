@@ -147,8 +147,8 @@ export default function Home() {
         <Wrapper style={{ flexDirection: 'column', alignItems: 'center', width: '100%', }} fundo="fundo5" >
           <Desconto />
           <Preco 
-            preco1="434"
-            centavos1=",85"
+            preco1="579"
+            centavos1=",80"
             preco2="289"
             centavos2=",90"
           />
