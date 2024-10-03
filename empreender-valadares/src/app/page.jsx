@@ -119,7 +119,7 @@ export default function Home() {
           />
           <Mentora />
         </Wrapper>
-        <Wrapper style={{ flexDirection: 'column', alignItems: 'center', width: '100%', marginTop: '1.6rem' }} fundo="fundo4" >
+        <Wrapper style={{ flexDirection: 'column', alignItems: 'center', width: '100%', marginTop: '1.6rem', }} fundo="fundo4" >
           <Evento 
             sobretitulo="Evento"
             titulo="EMPREENDER DIREITO"
