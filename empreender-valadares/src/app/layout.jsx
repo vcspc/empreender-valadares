@@ -27,6 +27,19 @@ export default function RootLayout({ children }) {
           <img height="1" width="1" style={{display: 'none'}} src={`https://www.facebook.com/tr?id=377933152058804&ev=PageView&noscript=1`}	
         />
         </noscript>
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-TKR2VGQRE0"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-TKR2VGQRE0');
+          `}
+        </Script>
       </head>
       <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
       <body className={inter.className}>{children}</body>
