@@ -1,0 +1,54 @@
+@import 'variaveis';
+@import 'mixins';
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-top: 2rem;
+    
+    .video {
+        height: 9rem;
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        margin-top: 2rem;
+        
+        .video {
+            height: 16rem;
+            width: 100%;
+        }
+    
+    }
+
+
+}
+
+@media (min-width: 1024px) {
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        margin-top: 2rem;
+        
+        .video {
+            height: 29rem;
+            width: 100%;
+        }
+    
+    }
+
+
+}

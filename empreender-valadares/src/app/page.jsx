@@ -17,6 +17,7 @@ import Video from "../../components/Video";
 import PerguntasFrequentes from "../../components/PerguntasFrequentes";
 import Footer from "../../components/Footer";
 import Texto2 from "../../components/Texto2";
+import VideoChamada from "../../components/VideoChamada";
 
 
 export default function Home() {
@@ -51,6 +52,7 @@ export default function Home() {
             icone="/localizador.svg"
             style={{ width: '0.5rem', height: '0.5rem', }}
           />
+          <VideoChamada />
           <Titulo 
             titulo="PARA QUEM É O EVENTO?"
             cor="titulo-claro"
