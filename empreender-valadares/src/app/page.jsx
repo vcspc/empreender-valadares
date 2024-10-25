@@ -133,11 +133,11 @@ export default function Home() {
             style={{ textAlign: 'center', fontFamily: 'Helvetica', }}
             classe="texto"
           />
-          <Localizadores 
-            icone="/localizador.svg"
-            alt="icone de localizador"
-            titulo="Endereço"
-            texto="Rio de Janeiro-RJ / Barra da Tijuca"
+          <Localizadores
+          icone="/localizador.svg"
+          alt="icone de localizador"
+          titulo="Endereço"
+          texto={`Avenida Almirante Júlio de Sá Bierrenbach, 65\nBloco 1, sala 717\nCondomínio: Universe Empresarial\nAo lado do Shopping Metropolitano na Barra da Tijuca RJ`}
           />
           <Localizadores 
             icone="/calendario.svg"
@@ -149,10 +149,10 @@ export default function Home() {
         <Wrapper style={{ flexDirection: 'column', alignItems: 'center', width: '100%', }} fundo="fundo5" >
           <Desconto />
           <Preco 
-            preco1="579"
-            centavos1=",80"
-            preco2="289"
-            centavos2=",90"
+            preco1="494"
+            centavos1=",00"
+            preco2="247"
+            centavos2=",00"
           />
           <Botao 
             texto="GARANTIR MEU INGRESSO AGORA" 

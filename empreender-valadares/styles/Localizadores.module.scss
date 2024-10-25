@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     width: 80%;
-    height: 7.5rem;
+    height: 11rem;
     border: solid 1px $texto-claro;
     border-radius: 15px;
     margin-top: 1rem;
@@ -18,8 +18,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 80%;
-        height: 80%;
+        width: 90%;
+        height: 90%;
 
 
         img {
@@ -46,8 +46,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 30%;
-        height: 7.5rem;
+        width: 40%;
+        height: 11rem;
         border: solid 1px $texto-claro;
         border-radius: 15px;
         margin-top: 1rem;
@@ -68,12 +68,12 @@
             }
     
             .titulo {
-                @include titulo($ppp, 0rem);
+                @include titulo($ppp - 0.1rem, 0rem);
                 margin-bottom: 0.5rem;
             }
     
             .texto {
-                @include texto-padrao($ppp, 1rem);
+                @include texto-padrao($ppp - 0.1rem, 0.7rem);
                 text-align: center;
             }
         }
@@ -88,8 +88,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 30%;
-        height: 10rem;
+        width: 40%;
+        height: 14rem;
         border: solid 1px $texto-claro;
         border-radius: 15px;
         margin-top: 1rem;
